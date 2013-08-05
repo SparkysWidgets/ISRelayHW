@@ -1,7 +1,7 @@
 Welcome To: ISRelay Hardware Repo!!
 ================================
 
-##### Note: This is for the In Series Relay Hardware Version .1 Branch
+##### Note: This is for the In Series Relay Hardware Version .11 Branch
 
 ISRelay Hardware Design Files in EAGLE. Not much to say, Is consists of mainly Stock parts and is a PTH version!
 
@@ -19,19 +19,20 @@ Board Layout Info
 -------------------------
 ##### Form Factor based on minimum footprint that can fit this sized relay, can fit into deep outlet boxes
 
-- Creep-age distance between HOT and LV digital side
+- Creep-age distance between HOT and LV digital side was increased slightly over v01
 - Large enough traces to match Relay load specs
-- (FIXME: add internal cutouts and traces on both sides of the HOT portion)
+- Added traces for LOAD on both sides of PCB as recommended by Relay MFG
+- Lower portion of GND plane of moved, one Yikes down a couple more to go!
 
 Errata
 -------------------------
 
 ##### Just a quick list of current issues
-- As stated above Internal cutouts (as supported but OSHPark circa. 2013)
+- Add Internal cutouts (as supported but OSHPark circa. 2013)
 - Silkscreen improvements
 - Push to SMD to speed assembly up
-- Move the Fricken ground plane, yikes...
-- Traces on both sides of HOT portion, and newer relay Recommends connection of both sets of switch contacts
+- (NEW) Move the Fricken ground plane again, yikes...(Sorry again the pads on relay are hot darnit, LED and BJT should be moved to fix this new one)
+- Newer relay Recommends connection of both sets of switch contacts
 
 Firmware
 -------------------------
