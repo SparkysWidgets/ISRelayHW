@@ -1,7 +1,7 @@
 Welcome To: ISRelay Hardware Repo!!
 ================================
 
-##### Note: This is for the In Series Relay Hardware Version .11 Branch
+##### Note: This is for the In Series Relay Hardware Version .12 Branch
 
 ISRelay Hardware Design Files in EAGLE. Not much to say, Is consists of mainly Stock parts and is a PTH version!
 
@@ -13,26 +13,28 @@ Schematic Info
 - BJT acting as a DC current gain switch(~5mA through the BE junction)
 - Relay for circuit Isolation from mains
 - Flyback, reverse voltage spike protection diode
-- LOAD header for connection in series with the HOT line of the mains wiring to be switched
+- LOAD header for connection in series with the HOT line of the mains wiring to be switch
+- Added frame to better capture version and project info and license for both board and schem
 
 Board Layout Info
 -------------------------
 ##### Form Factor based on minimum footprint that can fit this sized relay, can fit into deep outlet boxes
 
-- Creep-age distance between HOT and LV digital side was increased slightly over v01
+- Creep-age distance between HOT and LV digital side was increased significantly over v11
+- Internal cutout added to help the Isolation ^
 - Large enough traces to match Relay load specs
 - Added traces for LOAD on both sides of PCB as recommended by Relay MFG
-- Lower portion of GND plane of moved, one Yikes down a couple more to go!
+- Lengthened traces to both contact sets as recommended by Relay MFG
+- Lower portion of GND plane moved!
+- Upper portion of GND plane moved!
+- Added a bit of a hook up legend below LV connector
 
 Errata
 -------------------------
 
 ##### Just a quick list of current issues
-- Add Internal cutouts (as supported but OSHPark circa. 2013)
-- Silkscreen improvements
-- Push to SMD to speed assembly up
-- (NEW) Move the Fricken ground plane again, yikes...(Sorry again the pads on relay are hot darnit, LED and BJT should be moved to fix this new one)
-- Newer relay Recommends connection of both sets of switch contacts
+- Silkscreen improvements as always 
+- Tweak traces a tad bit
 
 Firmware
 -------------------------
