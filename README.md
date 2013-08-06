@@ -1,7 +1,7 @@
 Welcome To: ISRelay Hardware Repo!!
 ================================
 
-##### Note: This is for the In Series Relay Hardware Version .12 Branch
+##### Note: This is for the In Series Relay Hardware Version .13 Branch
 
 ISRelay Hardware Design Files in EAGLE. Not much to say, Is consists of mainly Stock parts and is a PTH version!
 
@@ -15,6 +15,7 @@ Schematic Info
 - Flyback, reverse voltage spike protection diode
 - LOAD header for connection in series with the HOT line of the mains wiring to be switch
 - Added frame to better capture version and project info and license for both board and schem
+- Brought info in frame up to date to new site URL schema
 
 Board Layout Info
 -------------------------
@@ -28,6 +29,8 @@ Board Layout Info
 - Lower portion of GND plane moved!
 - Upper portion of GND plane moved!
 - Added a bit of a hook up legend below LV connector
+- increased creep-age cutout slightly
+- changed silk info to reflect new site URL schema
 
 Errata
 -------------------------
